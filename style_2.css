@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body,
+html {
+    background-color: powderblue;
+    /*max-width: 1200px;*/
+    margin: auto;
+    font-family: "Space Mono", sans-serif;
+    /*font-size: 18px;*/
+    line-height: 1.4em;
+    height: 100%;
+    color: GhostWhite;
+}
+
+
+/* wrapper class*/
+
+.wrapper {
+    clear: both;
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #fff;
+    display: block;
+}
+
+
+/* header tag*/
+
+header {
+    /*
+                 display: flex;
+                 width: 100%;**/
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    width: 100%;
+    padding-left: 1.4%;
+    padding-right: 1.4%;
+    background-color: #FFF;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    justify-content: space-between;
+    /*  float: left;
+                 padding-top: 12px;
+                 padding-bottom: 15px;
+                 width: 100%;
+                 padding-left: 1.4%;
+                 padding-right: 1.4%;
+                 background-color: #FFF;*/
+}
+
+.header p {
+    float: right;
+    font-family: 'droid_sansregular';
+    color: #333;
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+}
+
+.header p a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #333;
+}
+
+.header p a:hover {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #ee1d24;
+}
+
+.header h3 {
+    font-family: 'droid_sansbold';
+    font-weight: normal;
+    clear: both;
+    padding-left: 32px;
+    color: #ee1d24;
+    font-size: 26px;
+    line-height: 33px;
+    padding-bottom: 0px;
+    background: url(http://carpetmillonline.com/wp-content/uploads/2020/10/icon1.png) no-repeat scroll transparent 0 5px;
+    margin-bottom: 0px;
+}
+
+.header h3 a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #ee1d24;
+}
+
+.header h3 a:hover {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #333;
+}
+
+.header h4 {
+    font-family: 'droid_sansbold';
+    font-weight: normal;
+    float: right;
+    color: #ee1d24;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.header h4 a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #ee1d24;
+}
+
+.header h4 a:hover {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: rgb(24, 2, 2);
+}
+
+
+/*left side of the header*/
+
+.logo {
+    float: left;
+    padding-top: 12px;
+}
+
+.logo:hover {
+    opacity: .8;
+}
+
+
+/*right section of the outer header*/
+
+.right-section {
+    float: right;
+    padding-top: 5em;
+    padding-right: 5em;
+}
+
+button {
+    border-radius: 12px;
+    background-color: ghostwhite;
+    color: black;
+    width: 6em;
+    padding-top: 0.5rem;
+    padding: 2em;
+    border: none;
+    /* padding: 20px;*/
+    text-align: center;
+    text-decoration: rgb(24, 2, 2) solid;
+    display: inline-block;
+    font-size: 1em;
+    /*   margin: 4px 2px;*/
+    cursor: pointer;
+}
+
+button #Signup {
+    background-color: royalblue;
+    color: white;
+}
+
+button #Signup:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* search box*/
+
+
+/*
+.search-box {
+    float: left;
+    border: solid 2px #ee1d24;
+    /* margin-left: 20%;
+        margin-top: 3.2%;*/
+
+
+/*margin: 5em;
+    margin-left: 10em;
+}*/
+
+.search-box {
+    float: left;
+    border: solid 2px #ee1d24;
+    margin-left: 20%;
+    margin-top: 7em;
+}
+
+.form input[type="text"] {
+    float: left;
+    background-color: #FFF;
+    width: 280px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+    font-size: 14px;
+    color: #666;
+    height: 34px;
+    margin-bottom: 0px;
+    font-family: 'droid_sansregular';
+    background-color: #fff;
+}
+
+.form input[type="submit"] {
+    float: left;
+    width: 36px;
+    background-color: #ee1d24;
+    height: 34px;
+    text-indent: -9999px;
+    cursor: pointer;
+    background: url(http://carpetmillonline.com/wp-content/uploads/2020/10/search.png) no-repeat center center #ee1d24;
+    padding: 0px 0px 3px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 0 0 0px !important;
+}
+
+.form input[type="submit"]:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+/*buttons*/
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a {
+    outline: none;
+    border: none;
+}
+
+input {
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 2px;
+}
+
+
+/*media queries*/
+
+.content-outer {
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    width: 100%;
+    padding-left: 1.4%;
+    padding-right: 1.4%;
+    background-color: #FFF;
+}
+
+.nav-outer {
+    float: left;
+    width: 100%;
+    background-color: #ee1d24;
+    margin-bottom: 12px;
+}
+
+menu {
+    float: left;
+    width: 70%;
+}
+
+.menu ul {
+    list-style: none;
+    float: left;
+    padding: 0 0 0 0px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.menu ul li {
+    float: left;
+    color: #fff;
+    font-size: 17px;
+    padding-left: 1.8%;
+    padding-right: 1.8%;
+    border-right: solid 1px #000;
+    line-height: 55px;
+    font-family: 'droid_sansregular';
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.menu ul li a:hover {
+    color: #ffcb05;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.mobile-nav-button {
+    float: left;
+    padding-top: 11px;
+    display: none;
+    padding-left: 12px;
+}
+
+.footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+.b-footer-copyright {
+    color: #fff!important;
+    font-size: 14px!important;
+    margin: auto 32px;
+    white-space: nowrap;
+}
+
+.footer-container {
+    max-width: 1200px!important;
+    padding: 100px 0 75px;
+}
+
+.b-footer-nav {
+    font-size: 14px!important;
+}
+
+.b-footer-nav {
+    font-size: 14px!important;
+}
+
+.b-footer-nav ul.b-footer-nav__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.b-footer-nav ul.b-footer-nav__menu a {
+    color: ghostwhite;
+}
+
+@media all and ( max-width: 1200px) {
+    .wrapper {
+        width: 1140px;
+    }
+    .container,
+    .content-outer {
+        max-width: 1100px !important;
+    }
+    .right-section1 {
+        float: none;
+        clear: both;
+        margin: 0 auto;
+        width: 358px;
+    }
+    .right-section {
+        margin-right: 5%;
+        padding-right: 5em
+    }
+    .search-box {
+        margin-left: 5%;
+        margin-top: 7em;
+    }
+    button #Signup {
+        width: 2rem;
+    }
+    button #Login {
+        width: 2rem;
+    }
+    .logo {
+        margin-left: 5%;
+    }
+}
+
+.menu ul li {
+    font-size: 17px;
+    padding-left: 1.4%;
+    padding-right: 1.4%;
+    line-height: 54px;
+}
+
+
+}
+@media all and ( max-width:1025px) {
+    .wrapper {
+        width: 992px;
+    }
+    
+    .container {
+        max-width: 960px !important;
+    }
+    
+    .search-box {
+        margin-left: 8%;
+        margin-top: 2.2%;
+    }
+    
+    .menu ul li {
+        font-size: 17px;
+        padding-left: 1.4%;
+        padding-right: 1.4%;
+        line-height: 54px;
+    }
+    
+    .logo {
+        padding-top: 15px;
+    }
+    
+    .search-box {
+        margin-left: 0%;
+        margin-top: 1.2%;
+        float: right;
+    }
+    
+    .right-section {
+        //*padding-left: 5em;*/
+        margin-right: 7em;
+    }
+    /* button #Signup {
+        width: 2rem;
+    }
+    
+    button #Login {
+        width: 2em;
+    }*/
+}
+
+/*    @media all and ( max-width:992px) {
+                 .wrapper {
+                     width: 768px;
+                 }
+                 .search-box {
+                     margin-left: 4.6%;
+                     margin-top: 3.2%;
+                 }
+                 .container {
+                     max-width: 750px !important;
+                 }
+             }*/
+@media all and ( max-width: 768px) {
+    .btn1 {
+        margin-right: 6px;
+    }
+    
+    .wrapper {
+        width: 580px;
+    }
+    /* .header-outer div {
+        justify-content: center;
+        width: 200px;
+        margin-top: 0em;
+    }*/
+    
+    .container {
+        max-width: 560px !important;
+    }
+    
+    .header h3 {
+        padding-left: 25px;
+        font-size: 23px;
+        line-height: 30px;
+        background-size: 24px;
+    }
+    
+    .right-section {
+        padding-top: 3px;
+    }
+    
+    .logo {
+        padding-top: 15px;
+        padding-left: 25%;
+    }
+    
+    .search-box {
+        margin-left: 0%;
+        margin-top: 1.2%;
+        float: right;
+        margin-right: 15%;
+    }
+    
+    .right-section {
+        margin-right: 10%;
+    }
+    
+    button #Signup {
+        width: 2rem;
+    }
+    
+    button #Login {
+        width: 2em;
+    }
+    
+    .header p {
+        font-size: 14px;
+    }
+    
+    .header h4 {
+        font-size: 14px;
+    }
+    
+    .class1 p span {
+        font-size: 14px;
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    .mobile-nav-button {
+        float: left;
+        padding-top: 9px;
+        display: block;
+        padding-left: 6px;
+    }
+    
+    .mobile-nav-button img {
+        width: 28px;
+    }
+    
+    .b-footer__wrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+}
+@media all and ( max-width:580px) {
+    .header h3 {
+        padding-left: 25px;
+        font-size: 23px;
+        line-height: 30px;
+        background-size: 24px;
+    }
+    
+    .right-section {
+        padding-top: 3px;
+    }
+    
+    .container {
+        max-width: 360px !important;
+    }
+    
+    .logo {
+        padding-top: 15px;
+        padding-left: 20%;
+        width: 20em;
+    }
+    
+    .search-box {
+        margin-left: 0%;
+        margin-top: 1.2%;
+        float: right;
+        margin-right: 6%;
+    }
+    
+    .right-section {
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 2em;
+    }
+    
+    .form input[type="text"] {
+        width: auto;
+    }
+    
+    button #Signup {
+        width: 0.75rem;
+    }
+    
+    button #Login {
+        width: 0.75em;
+    }
+    
+    .header p {
+        font-size: 14px;
+    }
+    
+    .header h4 {
+        font-size: 14px;
+    }
+    
+    .btn3 {
+        margin-left: 9px;
+        height: 32px;
+        line-height: 32px;
+        width: 45%;
+        font-size: 11px;
+        margin-bottom: 10px;
+        margin-top: 6px;
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    .mobile-nav-button {
+        float: left;
+        padding-top: 9px;
+        display: block;
+        padding-left: 6px;
+    }
+    
+    .mobile-nav-button img {
+        width: 28px;
+    }
+}
+@media all and ( max-width:380px) {
+    .right-section {
+        float: none;
+        width: 178px;
+        clear: both;
+        margin: 0 auto;
+    }
+    
+    .wrapper {
+        width: 320px;
+    }
+    
+    .search-box {
+        margin-top: 4.2%;
+        float: left;
+        margin-right: 0px;
+        width: 240px;
+        margin-left: 30px;
+    }
+    
+    button #Signup {
+        width: 0.25rem;
+    }
+    
+    button #Login {
+        width: 0.25em;
+    }
+    
+    .logo {
+        padding-top: 7px;
+        float: none;
+        clear: both;
+        text-align: center;
+        width: 15rem;
+        padding-left: 0.4em;
+    }
+    
+    .right-section {
+        padding-left: 3em;
+    }
+    
+    .container {
+        max-width: 300px !important;
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    .mobile-nav-button {
+        float: left;
+        padding-top: 9px;
+        display: block;
+        padding-left: 6px;
+    }
+    
+    .mobile-nav-button img {
+        width: 28px;
+    }
+}
